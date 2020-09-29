@@ -1,9 +1,8 @@
-body{
-    background-color: aqua;
-}
+
 body {
     margin: 0;
-    font-family: "Lato", sans-serif;
+    background-color: lightblue;
+    font-family: 'Quattrocento', serif;
   }
   
   .sidebar {
@@ -23,10 +22,10 @@ body {
     text-decoration: none;
   }
    
-  .sidebar a.active {
+  /* .sidebar a.active {
     background-color: #4CAF50;
     color: white;
-  }
+  } */
   
   .sidebar a:hover:not(.active) {
     background-color: #555;
