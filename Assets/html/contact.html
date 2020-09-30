@@ -12,7 +12,7 @@
    
     <!-- custom styling -->
     <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Assets/Css/style.css"
+    <link rel="stylesheet" href="../Css/style.css"
   </head>
  
   <body>
@@ -20,17 +20,65 @@
      <!-- side navbar -->
     <div class="sidebar">
       <div class="avatar">
-      <img src="Assets/Images/IMG_2640.JPG" id="avatar-img">
+      <img src="../Images/IMG_2640.JPG" id="avatar-img">
       <h4>Liban Madar</h4>
     </div>
-    <a href="index.html">Home</a>
-    <a href="Assets/html/about.html">About Me</a>
-    <a href="Assets/html/projects.html">Projects</a>
-    <a href="Assets/html/contact.html">Contact</a>a>
+    <a href="../../index.html">Home</a>
+    <a href="../html/projects.html">Projects</a>
+    <a href="../html/contact.html">Contact</a>
   </div>
     
   <div class="content">
-    <h1>Contact Infromation</h1>
+    <div class="jumbotron jumbotron-fluid" id="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Contact Infromation</h1>
+        <p>Email: liiban333@gmail.com</p>
+        <p>Phone: (612) 966 3263</p>
+        <hr class="my-2">
+        <p>Click the buttons</p>
+        <p class="lead">
+          <!-- <a class="btn btn-primary btn-md" href="https://www.linkedin.com/in/liban-madar/" role="button">Linkedin</a> -->
+          <!-- <a class="btn btn-primary btn-md" href="https://github.com/libanmadar" role="button">Github</a> -->
+        <a href="https://www.linkedin.com/in/liban-madar/" target="_blank" class="fa fa-linkedin"></a>
+       
+        <a href="https://github.com/libanmadar" target="_blank" class="fa fa-github"></a>
+        </div>
+
+<style>
+  #jumbotron{
+text-align: center;
+margin-left: 200px;
+margin-right: 200px;
+margin-top: 100px;
+  }
+  .fa {
+  padding: 10px;
+  font-size: 50px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 4px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+  .fa-linkedin {
+  background: #007bb5;
+  color: white;
+  
+}
+.fa-github{
+  background: #333;
+  color: white;
+}
+
+
+</style>
+
+
+
+    </div>
+    
   </div>
       
     <!-- Optional JavaScript -->
