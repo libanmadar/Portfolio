@@ -1,92 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
+    <title>Projects</title>
+    <link rel="stylesheet" href="../Css/navbar.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
-    <!-- custom styling -->
-    <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../Css/style.css"
-  </head>
- 
-  <body>
-    
-    <!-- side navbar -->
-    <div class="sidebar">
-        <div class="avatar">
-        <img src="../Images/IMG_2640.JPG" id="avatar-img">
-        <h4>Liban Madar</h4>
-      </div>
-    <a href="../../index.html">Home</a>
-    <a href="../html/projects.html">Projects</a>
-    <a href="../html/contact.html">Contact</a>
-    </div>
+</head>
+<body>
+    <div class="sidebar-container">
+        <div class="sidebar-logo">
+          Liban Madar
+        </div>
+        <ul class="sidebar-navigation">
+          
+        <li>
+            <a href="../../index.html"><i class="fa fa-home" aria-hidden="true"></i> Homepage</a>
+        </li>
+        
+        <li>
+            <a href="about.html"><i class="fa fa-user" aria-hidden="true"></i> About </a>
+        </li>
+        <li>
+            <a href="projects.html">  <i class="fa fa-cogs" aria-hidden="true"></i> Projects</a>
+        </li>
 
-    <!-- everything right of the side navbar -->
-    <div class="content">
-     <h1 style="text-align: center;">Projects</h1><br>
-
-      <div class="project-cards">
-        <div class="card-deck">
-          <div class="card">
-            <div class="card-header">Random Password Generator</div>
-            <div class="card-body">
-              <p class="card-text">Generate a Random Password passed on prompts given to the user</p>
-              <div class="card-footer">
-                <a href="https://libanmadar.github.io/Random-Password-Generator/" target="_blank" class="btn btn-dark" role="button">Demo</a>
-                <a href="https://github.com/libanmadar/Random-Password-Generator" target="_blank" class="btn btn-light" role="button"><i class="fa fa-fw fa-github" aria-hidden="true"></i>Github</a>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header">Check Password Strength</div>
-            <div class="card-body">
-              <p class="card-text">Check how Strong a Password is with a progress bar detailing password strength</p>
-              <div class="card-footer">
-                <a href="https://libanmadar.github.io/Check-Password-Strength/" target="_blank" class="btn btn-dark" role="button">Demo</a>
-                <a href="https://github.com/libanmadar/Check-Password-Strength" target="_blank"  class="btn btn-light" role="button"><i class="fa fa-fw fa-github" aria-hidden="true"></i>Github</a>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header">Employee Template Generator</div>
-            <div class="card-body">
-              <p class="card-text">Terminal Application that generates a card templete for and employee</p>
-              <div class="card-footer">
-                <a href="https://www.youtube.com/watch?v=wd2z40xBns4&feature=youtu.be" target="_blank" class="btn btn-dark" role="button">Demo</a>
-                <a href="https://github.com/libanmadar/Employee-Template-Generator" target="_blank" class="btn btn-light" role="button"><i class="fa fa-fw fa-github" aria-hidden="true"></i>Github</a>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header">Interview Prepper</div>
-            <div class="card-body">
-              <p class="card-text">My first full-stack appliaction, worked with two other deveoples using react
-                for the front end and MongoDB with express in the backend
-              </p>
-              <div class="card-footer">
-                <!-- <a href="#link" target="_blank" class="btn btn-dark" role="button">Demo</a> -->
-                <a href="https://github.com/jschollmeier/interviewPrepper" target="_blank" class="btn btn-light" role="button"><i class="fa fa-fw fa-github" aria-hidden="true"></i>Github</a>
-              </div>
-            </div>
-          </div>
-            </div>
+        <li>
+            <a href="contact.html"><i class="fa fa-envelope" aria-hidden="true"></i> Contact </a>
+        </li>
+        </ul>
+        </div>
+        
+      <div class="content-container">
+          <h4>Projects Page</h4>
+      
+        
       </div>
-     
-      
-    </div>
-    
-      
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+</body>
 </html>
