@@ -1,6 +1,6 @@
 .sidebar-container {
     position: fixed;
-    width: 220px;
+    width: 200px;
     height: 100%;
     left: 0;
     overflow-x: hidden;
@@ -21,7 +21,7 @@
     margin: 0;
     list-style-type: none;
     position: relative;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
   
   .sidebar-navigation li {
@@ -66,20 +66,33 @@
     width: 100%;
   }
   
-  .sidebar-navigation .header {
-    font-size: 12px;
-    text-transform: uppercase;
-    background-color: #151515;
-    padding: 10px 15px 10px 30px;
-  }
-  
-  .sidebar-navigation .header::before {
-    background-color: transparent;
-  }
-  
   .content-container {
     padding-left: 220px;
     padding-top: 20px;
+    padding-right: 20px;
   }
 
+  .card{
+    text-align: center;
+  }
   
+  @media screen and (max-width: 700px) {
+    .sidebar-container {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar-navigation {float: left;}
+    div.content-container {margin-left: 0; padding-left: 1rem;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar-navigation {
+      text-align: center;
+      float: none;
+    }
+    div.content-container{
+      padding-left: 1rem;
+    }
+    
+  }
