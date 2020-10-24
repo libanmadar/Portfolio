@@ -1,0 +1,15 @@
+/* projects page styling */
+
+
+
+.card{
+    text-align: center;
+  }
+  div.card-header {
+    background-color: lightslategray;
+  }
+  
+  #btn {
+    margin: 0.25rem;
+  }
+  

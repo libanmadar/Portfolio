@@ -1,0 +1,17 @@
+
+.avatar {
+    height: 500px;
+    width: 400px;
+}
+
+.card {
+    text-align: center;
+    
+    
+}
+div.card-header {
+    background-color: lightslategray;
+}
+div.card-footer {
+    background-color:lightslategray;
+}
