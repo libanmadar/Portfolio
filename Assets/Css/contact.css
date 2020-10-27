@@ -1,4 +1,7 @@
-
+.card {
+    margin: auto;
+    width: 90%;
+}
 div.card-body {
    
     margin: auto;
@@ -13,6 +16,8 @@ div.card-header {
 
 div.card-footer {
     background-color: lightslategray;
+    margin: auto;
+    width: 90%;
    
 }
 span {
