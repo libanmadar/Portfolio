@@ -2,3 +2,10 @@
     text-align: center;
     margin-top: 2rem;
 }
+div.card-header {
+    background-color: lightslategray;
+}
+
+div.card-footer {
+    background-color: lightslategray;
+}
