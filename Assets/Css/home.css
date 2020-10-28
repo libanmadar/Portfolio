@@ -1,16 +1,19 @@
 
-.avatar {
-    height: 500px;
-    width: 400px;
+#avatar {
+    padding: 0.5rem;
 }
 
 .card {
     text-align: center;
-    
-    
 }
+
+div.card-body {
+   
+}
+
 div.card-header {
     background-color: lightslategray;
+    
 }
 div.card-footer {
     background-color:lightslategray;
