@@ -1,12 +1,14 @@
 /* projects page styling */
 
 
-
 .card{
     text-align: center;
+   margin-bottom: 2rem;
+   margin-left: 5%;
+   margin-right: 5%;
+
   }
   div.card-header {
-    /* background-color: lightgrey; */
     background-color: lightslategray;
   }
     div.card-footer {
@@ -14,5 +16,12 @@
     }
   #btn {
     margin: 0.25rem;
+    background-color:#000080;
   }
+
+  .card-text {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 1rem;
+      }
   
