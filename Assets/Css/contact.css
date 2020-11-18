@@ -1,45 +1,38 @@
 .card {
-    margin: auto;
-    width: 90%;
+  margin: auto;
+  width: 90%;
 }
 div.card-body {
-   
-    margin: auto;
-    width: 50%;
+  margin: auto;
+  width: 50%;
 }
 
 div.card-header {
-    background-color: lightslategray;
-    text-align: center;
-    padding-top: 1.5rem;
+  background-color: slategray;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 1.5rem;
 }
 
 div.card-footer {
-    background-color: lightslategray;
-    margin: auto;
-    width: 90%;
-   
+  background-color: slategray;
+  margin: auto;
+  width: 90%;
 }
 span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-@media screen and (max-width: 450px){
-    div.card-body {
-        margin: auto;
-        width: 100%;
-    }
-    
-   
-
+@media screen and (max-width: 450px) {
+  div.card-body {
+    margin: auto;
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 700px){
-    div.card-body {
-        margin: auto;
-        width: 100%;
-    }
-    
-   
-
+@media screen and (max-width: 700px) {
+  div.card-body {
+    margin: auto;
+    width: 100%;
+  }
 }

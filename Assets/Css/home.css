@@ -1,20 +1,18 @@
-
 #avatar {
-    padding: 0.5rem;
+  padding: 0.5rem;
 }
 
 .card {
-    text-align: center;
-}
-
-div.card-body {
-   
+  text-align: center;
 }
 
 div.card-header {
-    background-color: lightslategray;
-    
+  background-color: slategray;
+  color: whitesmoke;
+}
+.card-title {
+  margin-top: 0.5rem;
 }
 div.card-footer {
-    background-color:lightslategray;
+  background-color: slategray;
 }

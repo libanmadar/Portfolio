@@ -1,27 +1,42 @@
 /* projects page styling */
+div.card-deck {
+  display: block;
+}
+.card {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+div.card-header {
+  background-color: slategray;
+  color: whitesmoke;
+}
+.card-title {
+  margin: 0.5rem;
+}
+div.card-footer {
+  background-color: slategray;
+}
+#btn {
+  margin: 0.25rem;
+  /* background-color: #000080; */
+  /* background-color: #1266a5; */
+  background-color: #191970;
+}
 
-
-.card{
+.card-text {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 1rem;
+}
+/* @media screen and (max-width: 800px) {
+  div.card-deck {
     text-align: center;
-   margin-bottom: 2rem;
-   margin-left: 5%;
-   margin-right: 5%;
-
+    display: block;
+    margin: 1rem;
   }
-  div.card-header {
-    background-color: lightslategray;
+  div.card {
+    margin-top: 2rem;
   }
-    div.card-footer {
-      background-color: lightslategray;
-    }
-  #btn {
-    margin: 0.25rem;
-    background-color:#000080;
-  }
-
-  .card-text {
-    margin-left: 15%;
-    margin-right: 15%;
-    padding: 1rem;
-      }
-  
+} */
