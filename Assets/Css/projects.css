@@ -1,12 +1,11 @@
 /* projects page styling */
 div.card-deck {
   display: block;
+  margin-block: auto;
 }
 .card {
   text-align: center;
-  margin-bottom: 2rem;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 1rem;
 }
 div.card-header {
   background-color: slategray;
@@ -30,7 +29,7 @@ div.card-footer {
   margin-right: 15%;
   padding: 1rem;
 }
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   div.card-deck {
     text-align: center;
     display: block;
@@ -39,4 +38,4 @@ div.card-footer {
   div.card {
     margin-top: 2rem;
   }
-} */
+}
