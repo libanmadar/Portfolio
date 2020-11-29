@@ -12,7 +12,8 @@
 .sidebar-logo {
   padding: 10px 15px 10px 30px;
   font-size: 20px;
-  background-color: #2574a9;
+  /* background-color: #2574a9; */
+  background-color: #0f52ba;
 }
 
 .sidebar-navigation {
@@ -49,7 +50,8 @@
 }
 
 .sidebar-navigation li::before {
-  background-color: #2574a9;
+  /* background-color: #2574a9; */
+  background-color: #0f52ba;
   position: absolute;
   content: "";
   height: 100%;

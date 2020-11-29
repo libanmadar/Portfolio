@@ -6,23 +6,24 @@ div.card-deck {
 .card {
   text-align: center;
   margin: 1rem;
+  margin-bottom: 1rem;
 }
 div.card-header {
-  background-color: slategray;
+  /* background-color: slategray; */
+  background-color: #0f52ba;
   color: whitesmoke;
 }
 .card-title {
   margin: 0.5rem;
 }
 div.card-footer {
-  background-color: slategray;
+  /* background-color: slategray; */
+  background-color: #0f52ba;
 }
 #btn {
   margin: 0.25rem;
-  /* background-color: #000080; */
-  /* background-color: #1266a5; */
-  /* background-color: #191970; */
-  background-color: #0f52ba;
+  /* background-color: #0f52ba; */
+  background-color: slategray;
 }
 
 .card-text {
